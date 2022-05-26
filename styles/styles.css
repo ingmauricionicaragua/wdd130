@@ -1,0 +1,11 @@
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#active {
+    background-color: hwb(0 95% 3%);
+    color: rgb(180, 70, 70);
+}
+img {
+    width: 80%;
+}
