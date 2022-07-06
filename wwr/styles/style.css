@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');;
 body{
     background-color: #fcfbfb;
+    font-family: 'Comic sans' , 'Rock Salt' , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main section img {
+    box-sizing: border-box;
 }
 header{
     background-color:rgba(41, 82, 12, 0.7);
 }
-.logo , .icon{
+#logo_link {
+      padding-top: 5px;
+}
+.logo {
     width: 80px;
+}.icon{
+    width: 80px;
+    padding-top: 10px;
+
 }
 
 #content {
@@ -19,6 +33,7 @@ nav a{
     text-align: center;
     color: #d9c2a3;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: rgb(163, 194, 235);
@@ -41,22 +56,42 @@ main section
 }
 .home-title {
     color: #3a3631;
+    font-family: 'Comic sans' , 'Rock Salt' , sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
+h2{
+    margin: 0;
+    padding: 0;
+}]
 h4{
     color: #383229;
 }
 .book, .join{
     color: #8d6939;
     text-decoration: none;
+    font-family: 'Comic sans' , 'Rock Salt' , sans-serif;
+    font-size: 2em;
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius of 5px
 }
 .book:hover, .join:hover{
     color: #f38d08;
+}
+.msg {
+    background-color: #6f7364;
+  line-height: 1.5em;
+  padding: 35px;
 }
 .msg h2{
     color: #999186; 
 }
 .msg p{
     color: #978e82; 
+    font-family: 'Comic sans' , 'Rock Salt' , sans-serif;
+    font-size: 2em;
+    padding-bottom: 15px;
 }
 footer h3{
     color: #daa054;
@@ -74,3 +109,17 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+    padding: 25px 50px;
+}
+.rivers-card, .camping-card, .rapids-card {
+
+ margin: 200px 0;
+}
+.card-img{
+border: 10px solid black;
+}
